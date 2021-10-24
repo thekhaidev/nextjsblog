@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -11,6 +12,11 @@ export default function Home() {
       <main>
         <h1 className="title">
           Hello. This is Khai's world
+          <br />
+          Read{' '}
+          <Link href="/posts/first-post">
+            <a>this page!</a>
+          </Link>
         </h1>
 
         <p className="description">
@@ -49,7 +55,7 @@ export default function Home() {
       </main>
 
       <footer>
-    KHAI KHAI KKHAI KHAI
+        KHAI KHAI KKHAI KHAI
       </footer>
 
       <style jsx>{`
