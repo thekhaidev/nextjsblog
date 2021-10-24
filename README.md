@@ -1,0 +1,1 @@
+This is a project I did while learning next js to get more practice with React and Javascript
